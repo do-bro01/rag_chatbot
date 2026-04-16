@@ -12,7 +12,7 @@ from langchain_community.chat_message_histories import ChatMessageHistory
 
 
 # 환경 변수 로드
-load_dotenv("./.env")  # load_dotenv()로 대체 가능
+load_dotenv("./.env")
 api_key = os.getenv("OPENAI_API_KEY")
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 FAISS_DIR = os.path.join(BASE_DIR, "faiss_db")
